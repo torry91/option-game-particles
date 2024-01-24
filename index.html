@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="particles-js"></div>
+<div class="count-particles">
+    <span class="js-count-particles"></span>
+  </div>  
+<div class="container">
+<form>
+    <div class="question">
+        <label>Question 1. Which is the fastest fish ?</label>
+        <input type = "radio" name = "question1">Tuna
+        <input type = "radio" name = "question1">Salmon
+        <input type = "radio" name = "question1" id="answer1">Sailfish
+    </div>
+
+    <div class="question">
+        <label>Question 2.The fastest land animal is ?</label>
+        <input type = "radio" name = "question2">Wolf
+        <input type = "radio" name = "question2">Dog
+        <input type = "radio" name = "question2" id="answer2">Cheetah
+    </div>
+
+    <div class="question">
+        <label>Question 3. What is the fastest bird ?</label>
+        <input type = "radio" name = "question3">Stork
+        <input type = "radio" name = "question3">Hawk
+        <input type = "radio" name = "question3" id="answer3">Peregrine
+    </div>
+
+    <div class="question">
+        <label>Question 4. What is the shortest sentence?</label>
+        <input type = "radio" name = "question4">I am
+        <input type = "radio" name = "question4" id="answer4">Go
+        <input type = "radio" name = "question4">None
+    </div>
+
+    <div class="question">
+        <label>Question 5. Which is not a bird? ?</label>
+        <input type = "radio" name = "question5" id="answer5">Dugong
+        <input type = "radio" name = "question5">Emu
+        <input type = "radio" name = "question5">Quail
+    </div>
+<button type = "submit" class = "btn">Send the answer</button>
+
+<p id = "show"></p>    
+</form>
+</div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

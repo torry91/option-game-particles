@@ -26,9 +26,16 @@ This is a simple quiz app with particle effects. Users can answer a set of quest
 
 Particle Animation Configuration
 The particle animation is powered by particles.js. You can customize the particle configuration in the script.js file under the particlesJS function.
+
+
+````bash 
 particlesJS("particles-js", {
     // Particle configuration here
     // ...
 });
+
+
+
+
 
 

@@ -3,6 +3,8 @@
 ## Description
 
 This is a simple quiz app with particle effects. Users can answer a set of questions and see their score. The app is enhanced with particle animations for a visually appealing experience.
+<img width="1327" alt="Screenshot 2024-01-27 at 20 50 21" src="https://github.com/torry91/option-game-particles/assets/149702982/a20cec83-1817-41d9-910a-f118dc618e92">
+
 
 ## Features
 
